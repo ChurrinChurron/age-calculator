@@ -16,7 +16,7 @@ function App() {
   let resultYear = document.getElementById("totalYears");
   let date = new Date();
   let currentDay = date.getDate();
-  let currentMonth = date.getMonth() + 1;
+  let currentMonth = date.getMonth();
   let currentYear = date.getFullYear();
 
     e.preventDefault();
