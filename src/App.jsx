@@ -3,6 +3,8 @@ import Arrow from "./assets/icon-arrow.svg";
 
 function App() {
 
+  function calcAge(e) {
+
   let day = document.getElementById("day");
   let month = document.getElementById("month");
   let year = document.getElementById("year");
@@ -16,8 +18,6 @@ function App() {
   let currentDay = date.getDate();
   let currentMonth = date.getMonth() + 1;
   let currentYear = date.getFullYear();
-
-  function calcAge(e) {
 
     e.preventDefault();
 
